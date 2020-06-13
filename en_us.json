@@ -608,6 +608,7 @@
     "jei.touhou_little_maid.altar_craft.spawn_light_bolt.result": "Spawn Light Bolt",
     "patchouli.touhou_little_maid.book": "Memorizable Gensokyo",
     "patchouli.touhou_little_maid.book.landing_text": "A mod about the maid and the touhou project.$(br2)Thanks to Snownee for help in coding. $(br)Thanks to Succinum, Pajinyi, ZeniCrow, Tian_mi, Paulzzh, Yuriscat and other artists for producing excellent models and textures.$(br)Thanks to Verclene, the author of little maid mob mod.",
+    
     "memorizable_gensokyo.categories.maid.name": "Maid",
     "memorizable_gensokyo.categories.maid.description": "Introduced the basic functions of the maid",
     "memorizable_gensokyo.categories.other.name": "Other",
@@ -669,13 +670,10 @@
     "memorizable_gensokyo.entries.other.chair.pages.0.text": "The custom cushion is a purely decorative item, placed directly on the ground by right-click, and shift left-click can destroy it, right-click to sit, shift right-click to open the GUI to switch the cushion style.",
     "memorizable_gensokyo.entries.other.chair.pages.1.text": "Some of the cushions can sit directly when the maid is close, shift right-click to the maid can leave the cushion.$(br2)The cushion model can also be completely customized, or you can quickly add a custom model through the resource package. For related customizations, please check the wiki.",
     "memorizable_gensokyo.entries.other.command.name": "Command",
+    "memorizable_gensokyo.entries.other.command.pages.0.text": "$(#f00)/hata reload$() Reload all hata textures$(br)$(#f00)/maid_res reload$() Reload the maid resource pack. This command does not completely reload some resources. It is recommended to use the F3+T shortcut key.$(br)$(#f00)/draw_coupon reload$() Reload draw coupon.$(br)$(#f00)/spell_card reload$() Reload all spell card data.",
+    "memorizable_gensokyo.entries.other.command.pages.1.text": "$(#f00)/touhou_little_maid power$() Set player power value$(br)$(#f00)/touhou_little_maid maid_num$() Set player's maid num",
     "memorizable_gensokyo.entries.other.garage_kit.name": "Garage Kit",
     "memorizable_gensokyo.entries.other.garage_kit.pages.0.text": "The garage kit is the drop item upon a maid's death, storing all the NBT data for the dead maid. Re-crafting in the altar can revive the maid.",
-    "memorizable_gensokyo.entries.other.grid.name": "Grid",
-    "memorizable_gensokyo.entries.other.grid.pages.0.text": "The maid grid is a block designed for automation that needs to be placed close to a block that can store items, such as a chest. $(br2)It also can be placed close to a workbench to enable craft.",
-    "memorizable_gensokyo.entries.other.grid.pages.1.text": "You can mark the item by right-click on the grid and you can mark up to 9 items, right-click with an empty hand can remove the mark. $(br2)Right-click on the four corners of the grid to switch between input and output modes, right-click on the four sides of the grid to switch between whitelist and blacklist mode.",
-    "memorizable_gensokyo.entries.other.grid.pages.2.text": "When the grid is placed close to the container such as the chest, set mark item, input or output, whitelist or blacklist, the surrounding maids can store or take out the corresponding items from the chest.",
-    "memorizable_gensokyo.entries.other.grid.pages.3.text": "When the grid is placed close to the workbench, the item mark (input, output, whitelist, blacklist settings are invalid) should be marked according to the recipes at this time, so that the surrounding maid can craft item according to the mark.$(br2)The grid is destroyed can retain its content, and empty hand shift right-click grid can clear all item marks.",
     "memorizable_gensokyo.entries.other.maid_beacon.name": "Shrine Lamp",
     "memorizable_gensokyo.entries.other.maid_beacon.pages.0.text": "The shrine lamp is a good decoration and has certain practical functions. Right click on the upper part of the shrine lamp to open the GUI, store the player's power point.",
     "memorizable_gensokyo.entries.other.maid_beacon.pages.1.text": "It also can select effect, then will consume power points to bring the effect to the surrounding range of maids.$(br2)The shrine lamp is also a good tool for automatically collecting power point. It can automatically collect power point within 3 blocks and store them.",
@@ -723,7 +721,7 @@
     "memorizable_gensokyo.entries.overview.what_is_touhou.pages.1.title": "Reimu Hakurei",
     "memorizable_gensokyo.entries.overview.what_is_touhou.pages.1.text": "The main protagonist of the Touhou Project series.",
     "memorizable_gensokyo.entries.overview.world_spawn.name": "World Spawn",
-    "memorizable_gensokyo.entries.overview.world_spawn.pages.0.text": "This mod adds two mobs and a villager profession. $(br2)The looting of mob are important crafting ingredient, and villagers can trade some of the items in this mod.$(br2)The chance of spawn hostile creatures in this mod can be modified in the configuration file. When set to 0, these monsters can be prohibited from spawn.",
+    "memorizable_gensokyo.entries.overview.world_spawn.pages.0.text": "This mod adds two mobs. $(br2)The looting of mob are important crafting ingredient.$(br2)The chance of spawn hostile creatures in this mod can be modified in the configuration file. When set to 0, these monsters can be prohibited from spawn.",
     "memorizable_gensokyo.entries.overview.world_spawn.pages.1.text": "Spawn in the plain biome at night, it will fly and simultaneously shoot danmaku to attack players and maids.",
     "memorizable_gensokyo.entries.overview.world_spawn.pages.2.text": "Spawn in the forest biome at night, it will attack players and maids."
 }
