@@ -643,5 +643,7 @@
     "memorizable_gensokyo.entries.maid.maid_skin.pages.2.text": "메이드의 GUI 하단에서 다른 유저가 제작한 리소스팩을 받을 수 있는 리소스팩 다운로드 GUI를 열 수 있습니다.$(br2)리소스팩을 다운로드 받은 뒤 불러와 메이드 스킨을 추가할 수 있습니다.",
     "memorizable_gensokyo.entries.maid.maid_skin.pages.3.text": "$(l:https://blockbench.net/)블록벤치$(/l) 소프트웨어를 사용하명 당신만의 메이드 스킨 리소스팩을 쉽게 만들 수 있습니다. $(br2)메이드 스킨은 1.10.0 버전 베드락 에디션 엔티티 모델과 완벽히 호환됩니다.$(br2)커스텀 에이드 스킨에 대한 자세하 정보는 위키를 참조해 주세요.",
     "memorizable_gensokyo.entries.maid.maid_sound.name": "메이스 음성",
-    "memorizable_gensokyo.entries.maid.maid_task.name": "메이드 직업"
+    "memorizable_gensokyo.entries.maid.maid_task.name": "메이드 직업",
+    "memorizable_gensokyo.entries.other.broom.pages.1.title": "마리사의 빗자루",
+    "memorizable_gensokyo.entries.other.broom.pages.1.text": "빗자루에 타고 있는 메이드"
 }
